@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    height: 850px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../IMG/pexels-daniel-andraski-197681005-13065692.jpg');
+    background-size: cover;
+    padding-top: 0%;
+}
+
+nav {
+    background-color: rgb(17, 11, 12);
+    height: 90px;
+    width: 100%;
+}
+
+.hero nav ul {
+    float: right;
+    margin-right: 15px;
+    
+
+
+}
+
+.hero nav ul li {
+    display: inline-block;
+    margin: 0px 35px;
+    line-height: 50px;
+    text-decoration: none;
+
+}
+
+.hero nav ul li a{
+    color: antiquewhite;
+    font-size: 10px  ;
+    text-transform: uppercase;
+    border-radius: 15px ;
+    padding: 5px 5px;
+
+}

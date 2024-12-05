@@ -1,0 +1,35 @@
+body{
+    background-color: aquamarine;
+    margin: auto;
+}
+
+
+.city{
+float: left;
+padding: 15px;
+margin: 5px;
+height: 300px;
+width: 300px;
+border: 5px solid rgb(245, 20, 20);    
+   
+   
+}
+
+nav ul{
+    float: right;
+    margin-right: 15px ;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0px 20px;
+    line-height: 80px;
+}
+
+nav ul li a{
+    color: goldenrod;
+    font-size: 15px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    padding: 5px 5px;
+}
